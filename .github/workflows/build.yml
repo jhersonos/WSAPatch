@@ -1,6 +1,6 @@
 name: Build WsaPatch.dll
-
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
